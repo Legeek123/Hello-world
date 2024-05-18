@@ -8,4 +8,5 @@ body {
     font-family: Arial;
     height: 100vh;
     background: linear-gradient(black, darkred, red);
+    color: whitesmoke;
 }
