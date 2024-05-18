@@ -6,7 +6,7 @@
 body {
     width: 100%;
     font-family: Arial;
-    height: 100vh;
+    height: 200vh;
     background: linear-gradient(black, darkred, red);
     color: whitesmoke;
 }
