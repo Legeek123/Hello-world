@@ -10,3 +10,9 @@ body {
     background: linear-gradient(black, darkred, red);
     color: whitesmoke;
 }
+
+.text1 .text2 .text3 .text4 .text5 .text6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
