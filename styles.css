@@ -12,6 +12,5 @@ body {
 }
 
 .text2 {
-    display: flex;
-    align-items: center;
+    background: blur(2px);
 }
