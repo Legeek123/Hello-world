@@ -26,3 +26,10 @@ body {
 .text6 {
     background: whitesmoke;
 }
+
+.text3 .text4 .text5 .text6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
