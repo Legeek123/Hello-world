@@ -30,7 +30,6 @@ body {
     flex-direction: column;
     color: black;
     gap: 5px;
-    text-decoration: none;
 }
 
 .text3 {
@@ -38,6 +37,7 @@ body {
     margin-left: 10px;
     border-radius: 20px;
     padding: 10px;
+    text-decoration: none;
 }
 
 .text4 {
@@ -45,6 +45,8 @@ body {
     margin-left: 10px;
     border-radius: 20px;
     padding: 10px;
+    text-decoration: none;
+
 }
 
 .text5 {
@@ -52,6 +54,8 @@ body {
     margin-left: 10px;
     border-radius: 20px;
     padding: 10px;
+    text-decoration: none;
+
 }
 
 .text6 {
@@ -59,4 +63,6 @@ body {
     margin-left: 10px;
     border-radius: 20px;
     padding: 10px;
+    text-decoration: none;
+
 }
