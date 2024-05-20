@@ -30,6 +30,7 @@ body {
     flex-direction: column;
     color: black;
     gap: 5px;
+    text-decoration: none;
 }
 
 .text3 {
