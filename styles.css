@@ -11,25 +11,12 @@ body {
     color: whitesmoke;
 }
 
-.text3 {
-    background: whitesmoke;
-}
-
-.text4 {
-    background: whitesmoke;
-}
-
-.text5 {
-    background: whitesmoke;
-}
-
-.text6 {
-    background: whitesmoke;
-}
-
-.text3 .text4 .text5 .text6 {
+.button1 {
     display: flex;
+
     justify-content: center;
+
     align-items: center;
     color: black;
+
 }
