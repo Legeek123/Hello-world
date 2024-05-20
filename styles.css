@@ -21,6 +21,7 @@ body {
 
 .text3 {
         background: whitesmoke;
+        margin-left: 10px;
 }
 
 .text4 {
@@ -33,4 +34,5 @@ body {
 
 .text6 {
         background: whitesmoke;
+        margin-right: 10px;
 }
