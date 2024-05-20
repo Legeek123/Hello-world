@@ -35,24 +35,27 @@ body {
 .text3 {
     background: whitesmoke;
     margin-left: 10px;
-    border-radius: 10px;
-
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .text4 {
     background: whitesmoke;
     margin-left: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .text5 {
     background: whitesmoke;
     margin-left: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .text6 {
     background: whitesmoke;
     margin-left: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    padding: 10px;
 }
