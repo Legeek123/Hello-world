@@ -16,6 +16,21 @@ body {
     justify-content: center;
     align-items: center;
     color: black;
-    background: whitesmoke;
     gap: 5px;
+}
+
+.text3 {
+        background: whitesmoke;
+}
+
+.text4 {
+        background: whitesmoke;
+}
+
+.text5 {
+        background: whitesmoke;
+}
+
+.text6 {
+        background: whitesmoke;
 }
