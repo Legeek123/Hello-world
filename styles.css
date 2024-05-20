@@ -17,4 +17,5 @@ body {
     align-items: center;
     color: black;
     background: whitesmoke;
+    gap: 5px;
 }
