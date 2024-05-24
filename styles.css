@@ -28,6 +28,12 @@ body {
     color: whitesmoke;
 }
 
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .button1 {
     display: flex;
     justify-content: center;
