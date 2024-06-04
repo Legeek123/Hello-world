@@ -22,7 +22,7 @@ nav {
     padding: 20px;
     border-radius: 0 10px 10px 10px;
     position: fixed;
-    top: -5px;
+    top: -1px;
 }
 
 nav a {
@@ -31,6 +31,10 @@ nav a {
     color: whitesmoke;
     padding: 5px;
     border-radius: 10px;
+}
+
+nav a:hover {
+    background: darkred;
 }
 
 .text1 {
