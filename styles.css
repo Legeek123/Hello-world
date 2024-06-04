@@ -16,10 +16,16 @@ body {
     color: whitesmoke;
 }
 
+nav {
+    background: white;
+    gap: 10px;
+}
+
 .text1 {
     display: flex;
     align-items: center;
     flex-direction: column;
+    margin-top: 40px;
 }
 
 .button1 {
