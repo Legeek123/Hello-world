@@ -31,6 +31,7 @@ nav a {
     color: whitesmoke;
     padding: 5px;
     border-radius: 10px;
+    transition: .3s;
 }
 
 nav a:hover {
