@@ -18,7 +18,11 @@ body {
 
 nav {
     background: white;
-    gap: 10px;
+
+}
+
+nav a {
+    margin: 10px;
 }
 
 .text1 {
