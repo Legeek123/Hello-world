@@ -38,6 +38,10 @@ nav a:hover {
     background: darkred;
 }
 
+#connect {
+    background: white;
+}
+
 .text1 {
     display: flex;
     align-items: center;
