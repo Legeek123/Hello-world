@@ -21,6 +21,7 @@ nav {
     margin-right: 910px;
     padding: 20px;
     border-radius: 0 10px 10px 10px;
+    position: fixed;
 }
 
 nav a {
