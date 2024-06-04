@@ -50,6 +50,7 @@ body {
 .text5 {
     background: whitesmoke;
     margin-left: 10px;
+    margin-right: 10px;
     border-radius: 20px;
     padding: 10px;
     text-decoration: none;
@@ -65,10 +66,4 @@ body {
     color: black;
     text-decoration: none;
 
-}
-
-@media screen and max-width=480px {
-    body {
-        background: blue;
-    }
 }
