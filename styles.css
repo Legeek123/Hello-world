@@ -94,3 +94,9 @@ nav a:hover {
     text-decoration: none;
 
 }
+
+@media screen and (min-width: 900px) {
+   .button1 {
+    flex-direction: column;
+  }
+}
