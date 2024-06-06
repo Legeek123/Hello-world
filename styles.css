@@ -97,6 +97,7 @@ nav a:hover {
 
 @media screen and (max-width: 320px) {
    .button1 {
-    flex-direction: column;
+       display: flex;
+       flex-direction: column;
   }
 }
