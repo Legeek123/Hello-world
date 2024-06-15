@@ -48,7 +48,8 @@ nav a:hover {
 }
 
 .parallax img {
-    padding: 1px;
+    width: 280px;
+    height: 250px;
 }
 
 .text1 {
