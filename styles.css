@@ -39,7 +39,8 @@ nav a:hover {
 }
 
 #connect {
-    background: white;
+    background: red;
+    border: #000 2px;
 }
 
 .text1 {
