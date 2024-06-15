@@ -48,8 +48,8 @@ nav a:hover {
 }
 
 .parallax img {
-    width: 1vw;
-    height: 1vh;
+    width: 100vw;
+    height: 100vh;
 }
 
 .text1 {
