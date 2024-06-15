@@ -47,6 +47,10 @@ nav a:hover {
     background: darkred;
 }
 
+.parallax img {
+    padding: 100px;
+}
+
 .text1 {
     display: flex;
     align-items: center;
