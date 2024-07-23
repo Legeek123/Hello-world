@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f8f9fa;
+        }
+        .logo {
+            margin-bottom: 20px;
+        }
+        .search-bar {
+            width: 100%;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .search-input {
+            width: 100%;
+            padding: 10px 20px;
+            border: 1px solid #dfe1e5;
+            border-radius: 24px;
+            box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+            font-size: 16px;
+        }
+        .buttons {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+        .button {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            background-color: #f8f9fa;
+            border: 1px solid #dfe1e5;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .button:hover {
+            background-color: #f1f3f4;
+        }
+    </style>
+</head>
+<body>
+    <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google Logo" class="logo">
+    <div class="search-bar">
+        <input type="text" class="search-input" placeholder="Recherchez sur Google ou saisissez une URL">
+        <div class="buttons">
+            <button class="button">Recherche Google</button>
+            <button class="button">J'ai de la chance</button>
+        </div>
+    </div>
+</body>
+</html>
