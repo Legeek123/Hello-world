@@ -3,88 +3,59 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberShadow</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="shortcut icon" href="icon-site.png" /> 
-    <script src="script.js"></script>
-    <!-- Hotjar Tracking Code for CyberShadow -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:5010644,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
+    <title>Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+
     <nav>
-        <a href="./index.html">Accueil</a>
-        <a href="./Contact.html">Contact</a>
-        <a href="./A-propos.html">A propos</a>
-        <a id="connect" href="./connect/index.php">Connexion</a>
+        <div class="btn">
+            <a id="a1" href="/Nos-offres.html">Nos offres <ion-icon name="pricetags-outline"></ion-icon></a>
+            <a href="/Nos-conseils.html">Nos Conseils <ion-icon name="construct-outline"></ion-icon></a>
+            <a href="/forum/forum.html">Forum <ion-icon name="chatbubbles-outline"></ion-icon></a>
+        </div>
+        <div class="compte">
+            <a id="a3" href="/compte/connexion.php"> Se connecter</a>
+            <a id="a2" href="/compte/inscription.php">S'inscrire</a>
+        </div>
     </nav>
-    <div class="parallax">
-        <img src="img/img1.png" id="para" alt="C'est une image de clavier en effet parallax. It's an image keyword in parallax effect">
-    </div>
-    <div class="text1">
-        <h1>Bienvenue sur notre site</h1>
-        <p>
-            Ceci est le site officiel de CyberShadow
-        </p>
-    </div>
-    <br><br>
-    <div class="text2">
-        <h3>Quel service offrons-nous ?</h3>
-        <p>
-            Nous proposons une gamme complète de services pour répondre à vos besoins en développement et en hébergement :
-        </p>
-    </div>
-    <br><br><br>
-    <div class="button1">
-        <div class="text3">
-            <a href="#">
-                <h4><strong>Programmation back-end</strong>
-                </h4>
-                <p>
-                    Nous nous spécialisons dans la programmation côté serveur, assurant la robustesse, la sécurité et l'efficacité de vos applications web. Nos compétences couvrent divers langages et frameworks tels que Node.js, Python, Ruby on Rails, et bien d'autres.
-                </p>
-            </a>
+    <br>
+        <div class="header">
+            <h1>Bienvenue sur notre site</h1>
+            <h3>Ce site est l'appartenance de CyberShadow</h3>
         </div>
-        <br><br>
 
-        <div class="text4">
-            <a href="#">
-                <h4>
-                    <strong>Programmation front-end</strong>
-                </h4>
-                <p>
-                    Notre équipe excelle dans la création d'interfaces utilisateur intuitives et réactives. Nous maîtrisons les technologies modernes comme HTML5, CSS3, JavaScript, ainsi que des frameworks populaires tels que React, Angular, et Vue.js pour offrir une expérience utilisateur optimale.
-                </p>
-            </a>
-        </div>
-        <br><br>
-
-        <div class="text5">
-            <a href="#">
-                <h4>
-                    <strong>Conseil en hébergement</strong>
-                </h4>
-                <p>
-                    Nous offrons des conseils d'experts pour choisir les meilleures solutions d'hébergement adaptées à vos besoins spécifiques. Que vous ayez besoin de services cloud, de serveurs dédiés ou d'hébergement partagé, nous vous guidons pour garantir performance, scalabilité et sécurité.
-                </p>
-            </a>
+    <div class="service">
+            <h2>Quel service offrons-nous ?</h3>
+            <h3>Nous proposons une gamme complète de services pour répondre à vos besoins en développement et en hébergement :</h3>
+        <div class="options">
+            <div class="option-a">
+                <h4><strong>Programmation back-end</strong></h4>
+                <p>Nous nous spécialisons dans la Programmation côté serveur, assurant la robustesse, la sécurité et l'éfficacité de vos applications web. Nos compétences couvrent divers langages et frameworks tels que Node.js, Python, Ruby on Rails, et bien d'autres.</p>
+            </div>
+            <div class="option-b">
+                <h4><strong>Programmation front-end</strong></h4>
+                <p>Notre équipe excelle dans la création d'interfaces utilisateur intuitives et réactives. Nous maîtrisons les technologies modernes comme HTML5 et CSS3, JavaScript, ainsi que des frameworks populaires tels que React, Angular, et Vue.js pour offrir une expérience utilisateur optimale.</p>
+            </div>
+            <div class="option-c">
+                <h4><strong>Conseil en hébergement</strong></h4>
+                <p>Nous offrons des conseils d'experts pour choisir les meilleurs solutions d'hébergements adaptées à vos besoins spécifiques. Que vous ayez besoin de services cloud, de serveurs dédiés ou d'hébergements partagé, nous vous guidons pour garantir performances, scalabilité et sécurité.</p>
+            </div>
         </div>
     </div>
-
-    <br><br><br>
-
-    <div class="text6">
-        <p>
-            Pour toute autre question sur notre activité, veuillez trouver nos coordonnées dans l'onglet "Contact". Nous serons ravis de répondre à toutes vos demandes et de vous accompagner dans vos projets.
-        </p>
+    <br><br><br><br>
+    <div class="pub1">
+        <h1>Envie d'étendre votre visibilité au web ?</h1>
+        <div class="text1">
+            <img src="/assets/img/software-developer-6521720_1280.jpg" alt="image de Innovalabs">
+            <h4>Nous sommes là pour vous accompagner à chaque étape de votre projet. Notre équipe d'experts vous aide à choisir les meilleures solutions pour votre site web, que ce soit en matière de design, d'hébergement ou de sécurité. Nous vous proposons des services personnalisés pour garantir une expérience utilisateur optimale. Grâce à notre expertise, vous bénéficiez d'un site performant, sécurisé et évolutif. Que vous souhaitiez lancer un blog, une boutique en ligne ou un site vitrine, nous avons les compétences nécessaires pour répondre à vos besoins. Profitez de <a href="conseils.html">nos conseils</a> pour optimiser votre présence en ligne et attirer plus de visiteurs. Avec nous, votre activité web est entre de bonnes mains.</h4>
+        </div>
+        <a href="/Nos-offres.html"><strong>Demander un devis</strong></a>
     </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
 </body>
 </html>

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/assets/img/forest-6765636_1280.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    color: white;
+    overflow: hidden;
+    color: black;
+}
+p {
+    color: darkgray;
+}
+
+.form {
+    color: black;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: system-ui, sans-serif;
+}
+
+.form form {
+    position: absolute;
+    background: rgb(255, 255, 255, 0.5);
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.form input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.card1 {
+    background: white;
+    padding: 10px;
+}

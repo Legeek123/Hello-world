@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.btn {
+    background: #f5f5f5;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.2);
+    font-size: 22.5px;
+    padding: 13px;
+    margin-bottom: 100px;
+    position: fixed;
+    border-radius: 0 0 20px 0;
+}
+
+.btn a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    margin-right: 20px;
+}
+
+#a1 {
+    margin-left: 10px;
+}
+
+#a2 {
+    margin-right: 10px;
+}
+
+#a3 {
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 20px;
+    margin-left: 4px;
+}
+
+.compte {
+    position: fixed;
+    right: 0;
+    font-size: 22.5px;
+    padding: 13px;
+    background: #f5f5f5;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 0 20px;
+}
+
+.compte a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -18px;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/assets/img/clavier.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f5f5f5;
+}
+
+.header h1 {
+    font-size: 3em;
+}
+
+.service {
+    margin-top: 20px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.option-a,
+.option-b,
+.option-c {
+    padding: 10px;
+    background: #f5f5f5;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.pub1 {
+    background: #000;
+    color: white;
+    padding: 50px;
+}
+
+#a4 {
+    font-size: 15px;
+}
+
+.text1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+
+.text1 img {
+    height: 50vh;
+    margin-top: 30px;
+}
+
+.text1 h4 {
+    margin: 70px;
+}
+
+.pub1 a {
+    padding: 10px;
+    background: white;
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 565px;
+}
+
+.text1 a {
+    text-decoration: underline;
+    background: none;
+    padding: 0;
+    margin: 0;
+    font-family: none;
+    color: white;
+}
